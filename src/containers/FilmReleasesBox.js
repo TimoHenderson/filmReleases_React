@@ -4,7 +4,7 @@ import FilmReleasesFooter from "../components/FilmReleasesFooter";
 import FilmReleasesHeader from "../components/FilmReleasesHeader";
 
 function FilmReleasesBox() {
-    const [filmReleases, setFilmReleases] = useState([
+    const [filmReleases] = useState([
         {
             id: 1,
             name: "Spider-Man: Into the Spider-Verse",

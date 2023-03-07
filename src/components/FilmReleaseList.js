@@ -2,8 +2,8 @@ import React from "react";
 import FilmRelease from "./FilmRelease";
 
 function FilmReleaseList({ filmReleases }) {
-    const filmReleaseNodes = filmReleases.map(filmRelease => (
-        <FilmRelease key={filmRelease.id} filmData={filmRelease} />
+    const filmReleaseNodes = filmReleases.map(filmData => (
+        <FilmRelease key={filmData.id} filmData={filmData} />
     ));
     return (
         <ul>
