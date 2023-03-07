@@ -1,8 +1,11 @@
 import React from "react";
 
-function FilmRelease({ filmRelease }) {
+function FilmRelease(props) {
+    const { name, url } = props.filmData;
     return (
-        <p>FilmRelease</p>
+        <li >
+            <a href={url}>{name}</a>
+        </li>
     );
 }
 export default FilmRelease;

@@ -2,7 +2,9 @@ import React from "react";
 
 function FilmReleasesHeader() {
     return (
-        <h1>Upcoming Film Releases for UK</h1>
+        <header>
+            <h1>Upcoming Film Releases for UK</h1>
+        </header>
     );
 }
 export default FilmReleasesHeader;
