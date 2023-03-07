@@ -3,7 +3,7 @@ import FilmRelease from "./FilmRelease";
 
 function FilmReleaseList({ filmReleases }) {
     const filmReleaseNodes = filmReleases.map(filmRelease => (
-        <FilmRelease filmData={filmRelease} key={filmRelease.id} />
+        <FilmRelease key={filmRelease.id} filmData={filmRelease} />
     ));
     return (
         <ul>

@@ -5,7 +5,8 @@ function FilmReleasesFooter() {
     const releasesString = "View more upcoming releases >>"
     return (
         <footer>
-            <a href={releasesLink}>{releasesString}</a>
+            <hr />
+            <a href={releasesLink}> <h3>{releasesString}</h3></a>
         </footer>
     );
 }

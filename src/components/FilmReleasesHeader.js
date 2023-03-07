@@ -3,7 +3,9 @@ import React from "react";
 function FilmReleasesHeader() {
     return (
         <header>
-            <h1>Upcoming Film Releases for UK</h1>
+
+            <h3>Upcoming Film Releases for UK</h3>
+            <hr />
         </header>
     );
 }
